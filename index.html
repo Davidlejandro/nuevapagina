@@ -7,112 +7,1402 @@
     <meta charset="UTF-8">
     <!--El viewport nos indica que nuestra página podrá ser abierta en cualquier dispositivo pero no se va a acoplar a cada uno-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina nueva</title>
+    <title>LigaPro</title>
 </head>
 <body>
-    <!--Este es un comentario-->
-    <h1>Mi primera pagina web</h1>
-    <h2>Mi primera pagina web</h2>
-    <h3>Mi primera pagina web</h3>
-    <h4>Mi primera pagina web</h4>
-    <h5>Mi primera pagina web</h5>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique sint velit doloribus iure atque, dignissimos voluptas tenetur neque? Esse nulla pariatur quos cupiditate, a voluptates sunt quasi vero magnam error?
-    <!--El elemento P se utiliza para separar los párrafos y que no existan mesclas-->
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi beatae placeat unde error esse mollitia quos eius officiis odit. Non, fugiat. Architecto consequatur reiciendis expedita ad sapiente debitis dignissimos accusamus?</p>
-    <!--EL elemento section se usa para crear una sección, style sirve para dar un estilo, border para bordear un elemento, 1px nos indica el tamaño del borde, y el color cambia la coloración del borde -->
-    <section style="border: 1px solid; border-color: red;">
-        <!--El elemento text-align nos permite mover el texto hacia donde le pidamos-->
-    <h1 style="text-align: center;">Inicio del parrafo</h1>
-    <!--El elemento div se usa para crear una sección-->
-    <div style = "color:aqua;">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam eligendi veritatis, quae dolorum similique, fugit officiis mollitia quisquam laboriosam numquam voluptatibus praesentium doloremque, architecto delectus iure assumenda rem. Necessitatibus! </div>
-    </Sect>
-    <div>
-        Crear una seccion
-    </div>
-    <!--El elemento article se usa para crear una sección-->
-    <Article>
-
-    </Article>
-    <Div>
-        <h1>Enlaces
-            <!--El elemento a href nos permite enlazar con paginas-->
-            <a href="https://www.youtube.com/watch?v=Bf01riuiJWA&list=RDBf01riuiJWA&start_radio=1">Musica de youtube</a>
-        </h1>
-    </Div>
-    <div>
-        <h2>Imagenes</h2>
-            <!--El elemento img src nos permite colocar algún tipo de imagen, alt es usado cuando la imagen no esta disponible, width es el ancho de la imagen, higth es el alto de la imagen y el title es usado para darle un titulo a la imagen-->
-        <img src="Imagenes/pagina-web.webp" alt="Pagina web" width="50px" height="50px" title="foto">
-    </div>
-    <!--Creacion de una tabla-->
+    <!--Se colona las imagenes sobre los grupos de futbol de el LigaPro junto con un ancho y largo de 10-->
+    <H1>Imagenes de los grupos</H1>
+    <img src="Imagenes/Aucas.png" width="100" height="100" alt="Aucas">
+    <img src="Imagenes/Barcelona.png" width="100" height="100" alt="Barcelona">
+    <img src="Imagenes/Cumbayá.png" width="100" height="100" alt="Cumbayá">
+    <img src="Imagenes/Delfín.png" width="100" height="100" alt="Delfín">
+    <img src="Imagenes/Dep. Cuenca.png" width="100" height="100" alt="Dep.Cuenca">
+    <img src="Imagenes/El Nacional.png" width="100" height="100" alt="El Nacional">
+    <img src="Imagenes/Emelec.png" width="100" height="100" alt="Emelec">
+    <img src="Imagenes/Imbabura.png" width="100" height="100" alt="Imbabura">
+    <img src="Imagenes/Ind. del valle.png" width="100" height="100" alt="Ind. valle">
+    <img src="Imagenes/LDU Quito.png" width="100" height="100" alt="LDU Quito">
+    <img src="Imagenes/Libertad.png" width="100" height="100" alt="Libertad">
+    <img src="Imagenes/Macará.png" width="100" height="100" alt="Macara">
+    <!--Se crean tablas que indicaran las posiciones de los jugadores en sus partidos-->
+    <Section>
     <Table border="1px">
-        <!--
-        <tr>
-            <td>Paises</td>
-            <td>Continetes</td>
-            <td>Poblacion</td>
-        </tr>
-        -->
-    <!--El thead se utiliza para los encabezados de columna de una tabla-->
-        <thead>
-    <!-- El th define una celda como encabezado de un grupo de celdas de tabla-->
-        <th>Paises</th>
-        <th>Continentes</th>
-        <th>Poblacion</th>
-    </thead>
-    <!-- el tr junto con el td se utilizan para definir si la informacion se colocara en forma de columna o de fila-->
+    <h1>Tabla de posiciones</h1>
+    <h2>Serie A</h2>
+    <h3>Fase 1</h3>
+    <thead>
+        <th>Pos.</th>
+        <th>PTS</th>
+        <th>PJ</th>
+        <th>G</th>
+        <th>E</th>
+        <th>P</th>
+        <th>GF</th>
+        <th>GC</th>
+        <th>DG</th>
+</thead>
     <tr>
-        <td>Ecuador</td>
-        <td>Sur america</td>
-        <td>18 millones</td>
+        <td>Ind. del Valle</td>
+        <td>35</td>
+        <td>15</td>
+        <td>10</td>
+        <td>5</td>
+        <td>0</td>
+        <td>23</td>
+        <td>8</td>
+        <td>15</td>
     </tr>
-<!--El tbody separa el término principal <table> en encabezado, cuerpo y pie de tabla-->
-    <tbody>
-        <tr>
-            <td>Mexico</td>
-            <td>Acapulco</td>
-            <td>20 millones</td>
-        </tr>
-        <tr>
-            <td>Estados unidos</td>
-            <td>Chicago</td>
-            <td>300 millones</td>
-        </tr>
-    </tbody>
-    </Table>
-    <div>
-        <h2>Lista desordenada</h2>
-        <!-- El ul se utiliza para crear una lista no ordenada-->
-        <ul>
-            <li>Ecuador</li>
-            <li>Colombia</li>
-            <li>Perú</li>
-            <li>Venezuela</li>
-            <li>Estados unidos</li>
-        </ul>
-        <h2>Lista ordenada</h2>
-        <!--El ol se utiliza para crear una lista ordenada-->
-        <ol>
-            <li>Ecuador</li>
-            <li>Colombia</li>
-            <li>Perú</li>
-            <li>España</li>
-            <li>Italia</li>
-        </ol>
-    </div>
-    <div>
-        <h1>Formulario</h1>
-        <!-- el form se usa para enviar informacio por parte del usuario a un sitio web-->
-         <!-- el method get o post se utiliza para definir el metodo por el cual se solicitar informacion-->
-        <form action="" method="get">
-        <!-- el label for se utiliza para etiquetar un elemento interactivo-->
-        <label for="nombre"> Ingrese el nombre</label>
-        <!-- inpput sirve para crear controles interactivos para formularios basados en la web con el fin de recibir datos del usuario.-->
-        <input type="text" id="nombre" placeholder="Ingrese el nombre" value="Ingrese el nombre" required>
-        <input type="submint">
-    </form>
-    </div>
+    <tr>
+        <td>Barcelona</td>
+        <td>31</td>
+        <td>15</td>
+        <td>9</td>
+        <td>4</td>
+        <td>2</td>
+        <td>24</td>
+        <td>8</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>LDU Quito</td>
+        <td>30</td>
+        <td>15</td>
+        <td>9</td>
+        <td>3</td>
+        <td>3</td>
+        <td>27</td>
+        <td>17</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Aucas</td>
+        <td>29</td>
+        <td>15</td>
+        <td>8</td>
+        <td>5</td>
+        <td>2</td>
+        <td>31</td>
+        <td>18</td>
+        <td>13</td>
+    </tr>
+    <tr>
+        <td>U. Católica</td>
+        <td>25</td>
+        <td>15</td>
+        <td>7</td>
+        <td>4</td>
+        <td>4</td>
+        <td>31</td>
+        <td>20</td>
+        <td>11</td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>25</td>
+        <td>15</td>
+        <td>6</td>
+        <td>7</td>
+        <td>2</td>
+        <td>17</td>
+        <td>12</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>El Nacional</td>
+        <td>21</td>
+        <td>15</td>
+        <td>8</td>
+        <td>0</td>
+        <td>7</td>
+        <td>17</td>
+        <td>16</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Mushuc Runa</td>
+        <td>18</td>
+        <td>15</td>
+        <td>5</td>
+        <td>3</td>
+        <td>7</td>
+        <td>18</td>
+        <td>19</td>
+        <td>-1</td>
+    </tr>
+    <tr>
+        <td>Macará</td>
+        <td>18</td>
+        <td>15</td>
+        <td>4</td>
+        <td>6</td>
+        <td>5</td>
+        <td>11</td>
+        <td>13</td>
+        <td>-2</td>
+    </tr>
+    <tr>
+        <td>Dep. Cuenca</td>
+        <td>16</td>
+        <td>15</td>
+        <td>3</td>
+        <td>7</td>
+        <td>5</td>
+        <td>25</td>
+        <td>24</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Universitario</td>
+        <td>16</td>
+        <td>15</td>
+        <td>4</td>
+        <td>4</td>
+        <td>7</td>
+        <td>14</td>
+        <td>21</td>
+        <td>-7</td>
+    </tr>
+    <tr>
+        <td>Orense</td>
+        <td>15</td>
+        <td>15</td>
+        <td>3</td>
+        <td>6</td>
+        <td>6</td>
+        <td>10</td>
+        <td>17</td>
+        <td>-7</td>
+    </tr>
+    <tr>
+        <td>Cumbayá</td>
+        <td>14</td>
+        <td>15</td>
+        <td>4</td>
+        <td>2</td>
+        <td>9</td>
+        <td>8</td>
+        <td>19</td>
+        <td>-11</td>
+    </tr>
+    <tr>
+        <td>Imbabura</td>
+        <td>13</td>
+        <td>15</td>
+        <td>3</td>
+        <td>4</td>
+        <td>8</td>
+        <td>17</td>
+        <td>29</td>
+        <td>-12</td>
+    </tr>
+    <tr>
+        <td>Delfín</td>
+        <td>9</td>
+        <td>15</td>
+        <td>2</td>
+        <td>3</td>
+        <td>10</td>
+        <td>8</td>
+        <td>23</td>
+        <td>-15</td>
+    </tr>
+    <tr>
+        <td>Libertad</td>
+        <td>4</td>
+        <td>15</td>
+        <td>1</td>
+        <td>5</td>
+        <td>9</td>
+        <td>8</td>
+        <td>25</td>
+        <td>-17</td>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px" >
+    <h3>Fase2</h3>
+    <thead>
+        <th>Pos.</th>
+        <th>PTS</th>
+        <th>PJ</th>
+        <th>G</th>
+        <th>E</th>
+        <th>P</th>
+        <th>DG</th>
+</thead>
+    <tr>
+        <td>Ind. del Valle</td>
+        <td>16</td>
+        <td>8</td>
+        <td>5</td>
+        <td>1</td>
+        <td>2</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>LDU Quito</td>
+        <td>16</td>
+        <td>8</td>
+        <td>5</td>
+        <td>1</td>
+        <td>2</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>Orense</td>
+        <td>16</td>
+        <td>8</td>
+        <td>5</td>
+        <td>1</td>
+        <td>2</td>
+        <td>4</td>
+    <tr>
+        <td>Mushuc Runa</td>
+        <td>14</td>
+        <td>7</td>
+        <td>4</td>
+        <td>2</td>
+        <td>1</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>U. Católica</td>
+        <td>13</td>
+        <td>8</td>
+        <td>4</td>
+        <td>1</td>
+        <td>3</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Macara</td>
+        <td>13</td>
+        <td>8</td>
+        <td>4</td>
+        <td>1</td>
+        <td>3</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Barcelona</td>
+        <td>13</td>
+        <td>8</td>
+        <td>4</td>
+        <td>1</td>
+        <td>3</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Delfin</td>
+        <td>11</td>
+        <td>8</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>-1</td>
+    </tr>
+    <tr>
+        <td>El Nacional</td>
+        <td>11</td>
+        <td>8</td>
+        <td>3</td>
+        <td>2</td>
+        <td>3</td>
+        <td>-2</td>
+    </tr>
+    <tr>
+        <td>Universitrio</td>
+        <td>10</td>
+        <td>7</td>
+        <td>3</td>
+        <td>1</td>
+        <td>3</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Imbabura</td>
+        <td>10</td>
+        <td>8</td>
+        <td>3</td>
+        <td>1</td>
+        <td>4</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Libertad</td>
+        <td>9</td>
+        <td>8</td>
+        <td>2</td>
+        <td>3</td>
+        <td>3</td>
+        <td>-4</td>
+    </tr>
+    <tr>
+        <td>Dep.Cuenca</td>
+        <td>7</td>
+        <td>8</td>
+        <td>3</td>
+        <td>1</td>
+        <td>4</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>6</td>
+        <td>8</td>
+        <td>3</td>
+        <td>0</td>
+        <td>5</td>
+        <td>-3</td>
+    </tr>
+    <tr>
+        <td>Cumbayá</td>
+        <td>4</td>
+        <td>8</td>
+        <td>1</td>
+        <td>1</td>
+        <td>6</td>
+        <td>-8</td>
+    </tr>
+    <tr>
+        <td>Aucas</td>
+        <td>4</td>
+        <td>8</td>
+        <td>1</td>
+        <td>1</td>
+        <td>6</td>
+        <td>-10</td>
+    </Section>
 
+        <Table border="1px">
+        <h2>Serie B</h2>
+        <h3>Fase de clasificación</h3>
+    <thead>
+        <th>Pos.</th>
+        <th>PTS</th>
+        <th>PJ</th>
+        <th>G</th>
+        <th>E</th>
+        <th>P</th>
+        <th>DG</th>
+    <tr>
+        <td>Cuniburo Fútbol Club	</td>
+        <td>56</td>
+        <td>30</td>
+        <td>17</td>
+        <td>5</td>
+        <td>8</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <td>Club Independiente Juniors</td>
+        <td>52</td>
+        <td>31</td>
+        <td>14</td>
+        <td>10</td>
+        <td>7</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Manta Fútbol Club</td>
+        <td>48</td>
+        <td>31</td>
+        <td>13</td>
+        <td>9</td>
+        <td>9</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>Guayaquil City FC</td>
+        <td>45</td>
+        <td>29</td>
+        <td>11</td>
+        <td>12</td>
+        <td>6</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>Club Deportivo Nueve de Octubre</td>
+        <td>43</td>
+        <td>31</td>
+        <td>11</td>
+        <td>10</td>
+        <td>10</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Gualaceo Sporting Club</td>
+        <td>43</td>
+        <td>31</td>
+        <td>12</td>
+        <td>7</td>
+        <td>12</td>
+        <td>-7</td>
+    </tr>
+    <tr>
+        <td>El San Antonio Fútbol Club</td>
+        <td>36</td>
+        <td>30</td>
+        <td>7</td>
+        <td>15</td>
+        <td>8</td>
+        <td>-6</td>
+    </tr>
+    <tr>
+        <td>CD Leones del Norte	</td>
+        <td>29</td>
+        <td>31</td>
+        <td>6</td>
+        <td>11</td>
+        <td>14</td>
+        <td>-10</td>
+    </tr>
+    <tr>
+        <td>Club Social y Deportivo Vargas Torres</td>
+        <td>29</td>
+        <td>31</td>
+        <td>4</td>
+        <td>17</td>
+        <td>10</td>
+        <td>-10</td>
+    </tr>
+    <tr>
+        <td>Chacaritas Fútbol Club</td>
+        <td>26</td>
+        <td>31</td>
+        <td>6</td>
+        <td>8</td>
+        <td>17</td>
+        <td>-27</td>
+    </tr>
+</Section>
+<!--Se colocaron los resultados hasta la etapa 8-->
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 1</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+        <tr>
+            <td>Ind. del Valle</td>
+            <td>0-1</td>
+            <td>Delfín</td>
+            <td>Estadio Jocay</td>
+        </tr>
+        <tr>
+            <td>Mushuc Runa</td>
+            <td>2-1</td>
+            <td>Libertad</td>
+            <td>Estadio Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+        </tr>
+        <tr>
+            <td>Aucas</td>
+            <td>2-0</td>
+            <td>Orense</td>
+            <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+        </tr>
+        <tr>
+            <td>Emelec</td>
+            <td>2-1</td>
+            <td>Dep. Cuenca</td>
+            <td>Estadio Alejandro Serrano Aguilar Banco del Austro</td>
+        </tr>
+        <tr>
+            <td>U. Católica</td>
+            <td>3-0</td>
+            <td>El Nacional</td>
+            <td>Estadio Olímpico Atahualpa</td>
+        </tr>
+        <tr>
+            <td>Universitario</td>
+            <td>1-0</td>
+            <td>Cumbayá</td>
+            <td>Estadio Bellavista de Ambato</td>
+        </tr>
+        <tr>
+            <td>Barcelona</td>
+            <td>2-0</td>
+            <td>Imbabura</td>
+            <td>Estadio Monumental Banco Pichincha</td>
+        </tr>
+        <tr>
+            <td>LDU Quito</td>
+            <td>2-1</td>
+            <td>Macará</td>
+            <td>Estadio Rodrigo Paz Delgado</td>
+        </tr>
+        <Table border="1px">
+            <h1>Resultados</h1>
+            <h2>Serie A</h2>
+            <h3>Etapa 2</h3>
+            <thead>
+            <th>Ganadores</th>
+            <th>Diferencia</th>
+            <th>Perdedores</th>
+            <th>Estadio</th>
+            </thead>
+        <tr>
+            <td>Mushuc Runa	</td>
+            <td>0-0</td>
+            <td>Emelec</td>
+            <td>Estadio George Capwell Banco del Austro</td>
+        </tr>
+        <tr>
+            <td>Macara</td>
+            <td>1-0</td>
+            <td>El Nacional</td>
+            <td>Estadio Bellavista de Ambato</td>
+        </tr>
+        <tr>
+            <td>Imbabura</td>
+            <td>3-0</td>
+            <td>Delfín</td>
+            <td>Estadio Olímpico de Ibarra</td>
+        </tr>
+        <tr>
+            <td>Ind. del Valle</td>
+            <td>3-1</td>
+            <td>Barcelona</td>
+            <td>Estadio Banco Guayaquil</td>
+        </tr>
+        <tr>
+            <td>Aucas</td>
+            <td>3-1</td>
+            <td>Universitario</td>
+            <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+        </tr>
+        <tr>
+            <td>Orense</td>
+            <td>1-1</td>
+            <td>Dep. Cuenca</td>
+            <td>Estadio 9 de Mayo</td>
+        </tr>
+        <tr>
+            <td>LDU Quito</td>
+            <td>1-3</td>
+            <td>Cumbayá</td>
+            <td>Estadio Olímpico Atahualpa</td>
+        </tr>
+        <tr>
+            <td>U. Católica	</td>
+            <td>0-1</td>
+            <td>Libertad</td>
+            <td>Estadio Federativo Reina del Cisne</td>
+        </tr>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 3</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+    <tr>
+        <td>Macara</td>
+        <td>3-0</td>
+        <td>Libertad</td>
+        <td>Estadio Bellavista de Ambato</td>
+    </tr>
+    <tr>
+        <td>Ind. del Valle</td>
+        <td>3-0</td>
+        <td>Cumbayá</td>
+        <td>Estadio Banco Guayaquil</td>
+    </tr>
+    <tr>
+        <td>Mushuc Runa</td>
+        <td>3-0</td>
+        <td>Imbabura</td>
+        <td>Estadio Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+    </tr>
+    <tr>
+        <td>Aucas</td>
+        <td>2-1</td>
+        <td>LDU Quito</td>
+        <td>Estadio Rodrigo Paz Delgado</td>
+    </tr>
+    <tr>
+        <td>Barcelona</td>
+        <td>0-0</td>
+        <td>Orense</td>
+        <td>Estadio Monumental Banco Pichincha</td>
+    </tr>
+    <tr>
+        <td>U. Católica	</td>
+        <td>3-3</td>
+        <td>Dep. Cuenca</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+    <tr>
+        <td>Delfín</td>
+        <td>2-0</td>
+        <td>Universitario</td>
+        <td>Estadio Jocay</td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>1-0</td>
+        <td>El Nacional</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 4</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+    <tr>
+        <td>Cumbayá</td>
+        <td>2-1</td>
+        <td>Mushuc Runa	</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+    <tr>
+        <td>Imbabura</td>
+        <td>2-1</td>
+        <td>Orense</td>
+        <td>Estadio 9 de Mayo</td>
+    </tr>
+    <tr>
+        <td>Macara</td>
+        <td>1-1</td>
+        <td>Dep. Cuenca</td>
+        <td>Estadio Alejandro Serrano Aguilar Banco del Austro</td>
+    </tr>
+    <tr>
+        <td>El Naciona</td>
+        <td>4-3</td>
+        <td>Aucas</td>
+        <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+    </tr>
+    <tr>
+        <td>Universitario</td>
+        <td>1-1</td>
+        <td>Ind. del Valle</td>
+        <td>Estadio Bellavista de Ambato</td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>2-0</td>
+        <td>Defín</td>
+        <td>Estadio George Capwell Banco del Austro</td>
+    </tr>
+    <tr>
+        <td>LDU Quito</td>
+        <td>3-2</td>
+        <td>Libertad</td>
+        <td>Estadio Federativo Reina del Cisne</td>
+    </tr>
+    <tr>
+        <td>Barcelona</td>
+        <td>1-0</td>
+        <td>U. Católica</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 5</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+    <tr>
+        <td>Cumbayá</td>
+        <td>0-0</td>
+        <td>Imbabura</td>
+        <td>Estadio Olímpico de Ibarra</td>
+    </tr>
+    <tr>
+        <td>El Nacional</td>
+        <td>2-1</td>
+        <td>Dep.Cuenca</td>
+        <td>Estadio Municipal La Cocha</td>
+    </tr>
+    <tr>
+        <td>Macara</td>
+        <td>1-1</td>
+        <td>Universitario</td>
+        <td>Estadio Bellavista de Ambato</td>
+    </tr>
+    <tr>
+        <td>Aucas</td>
+        <td>1-1</td>
+        <td>Ind. del valle</td>
+        <td>Estadio Banco Guayaquil</td>
+    </tr>
+    <tr>
+        <td>Delfín</td>
+        <td>1-1</td>
+        <td>Libertad</td>
+        <td>Estadio Jocay</td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>1-1</td>
+        <td>Orense</td>
+        <td>Estadio 9 de Mayo</td>
+    </tr>
+    <tr>
+        <td>Mushuc Runa</td>
+        <td>2-1</td>
+        <td>U. Católica</td>
+        <td>Estadio Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+    </tr>
+    <tr>
+        <td>Barcelona</td>
+        <td>2-0</td>
+        <td>LDU Quito</td>
+        <td>Estadio Monumental Banco Pichincha</td>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 6</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+    <tr>
+        <td>LDU Quito</td>
+        <td>5-0</td>
+        <td>Imbabura</td>
+        <td>Estadio Rodrigo Paz Delgado</td>
+    </tr>
+    <tr>
+        <td>Macara</td>
+        <td>1-1</td>
+        <td>Barcelona</td>
+        <td>Estadio Bellavista de Ambato</td>
+    </tr>
+    <tr>
+        <td>Aucas</td>
+        <td>2-0</td>
+        <td>Mushuc Runa</td>
+        <td>Estadio Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+    </tr>
+    <tr>
+        <td>Libertad</td>
+        <td>1-0</td>
+        <td>Universitario</td>
+        <td>Estadio Federativo Reina del Cisne</td>
+    </tr>
+    <tr>
+        <td>Cumbayá</td>
+        <td>1-1</td>
+        <td>El Nacional</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+    <tr>
+        <td>U.Católica</td>
+        <td>5-1</td>
+        <td>Orense</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+    <tr>
+        <td>Dep. Cuenca</td>
+        <td>0-0</td>
+        <td>Delfín</td>
+        <td>Estadio Municipal Jorge Andrade Cantos</td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>2-0</td>
+        <td>Ind. del Valle</td>
+        <td>Estadio George Capwell Banco del Austro</td>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 7</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+    <tr>
+        <td>Orense</td>
+        <td>2-2</td>
+        <td>Mushuc Runa</td>
+        <td>Estadio 9 de Mayo</td>
+    </tr>
+    <tr>
+        <td>Aucas</td>
+        <td>3-0</td>
+        <td>Cumbayá</td>
+        <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+    </tr>
+    <tr>
+        <td>LDU Quito</td>
+        <td>2-1</td>
+        <td>La Nacional</td>
+        <td>Estadio Olímpico Atahualpa</td>
+    </tr>
+    <tr>
+        <td>Barcelona</td>
+        <td>4-0</td>
+        <td>Dep. Cuenca</td>
+        <td>Estadio Monumental Banco Pichincha</td>
+    </tr>
+    <tr>
+        <td>Ind. del Valle</td>
+        <td>3-0</td>
+        <td>Libertad</td>
+        <td>Estadio Banco Guayaquil</td>
+    </tr>
+    <tr>
+        <td>U.Católica</td>
+        <td>2-0</td>
+        <td>Delfín</td>
+        <td>Estadio Jocay</td>
+    </tr>
+    <tr>
+        <td>Universitario</td>
+        <td>1-1</td>
+        <td>Emelec</td>
+        <td>Estadio Bellavista de Ambato</td>
+    </tr>
+    <tr>
+        <td>Macara</td>
+        <td>1-0</td>
+        <td>Imbabura</td>
+        <td>Estadio Olímpico de Ibarra</td>
+    </tr>
+</Section>
+<Section>
+    <Table border="1px">
+        <h1>Resultados</h1>
+        <h2>Serie A</h2>
+        <h3>Etapa 8</h3>
+        <thead>
+        <th>Ganadores</th>
+        <th>Diferencia</th>
+        <th>Perdedores</th>
+        <th>Estadio</th>
+        </thead>
+    <tr>
+        <td>Aucas</td>
+        <td>3-3</td>
+        <td>Dep. Cuenca</td>
+        <td>Estadio Alejandro Serrano Aguilar Banco del Austro</td>
+    </tr>
+    <tr>
+        <td>Universitario</td>
+        <td>2-1</td>
+        <td>Mushuc Runa</td>
+        <td>Estadio Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+    </tr>
+    <tr>
+        <td>Macara</td>
+        <td>0-0</td>
+        <td>Orense</td>
+        <td>Estadio Bellavista de Ambato
+        </td>
+    </tr>
+    <tr>
+        <td>Emelec</td>
+        <td>2-0</td>
+        <td>Cumbayá</td>
+        <td>Estadio George Capwell Banco del Austro</td>
+    </tr>
+    <tr>
+        <td>Ind. del Valle</td>
+        <td>2-2</td>
+        <td>U.Católica</td>
+        <td>Estadio Rodrigo Paz Delgado</td>
+    </tr>
+    <tr>
+        <td>El Nacional</td>
+        <td>2-0</td>
+        <td>Imbabura</td>
+        <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+    </tr>
+    <tr>
+        <td>Barcelona</td>
+        <td>3-0</td>
+        <td>Libertad</td>
+        <td>Estadio Federativo Reina del Cisne</td>
+    </tr>
+    <tr>
+        <td>LDU Quito</td>
+        <td>2-1</td>
+        <td>Delfín</td>
+        <td>Estadio Rodrigo Paz Delgado</td>
+    </tr>
+</Section>
+<!--Aqui se colocaron los diferentes enfrentamientos que van a ocurrin en los proximos dias hasta la Serie B-->
+<Section>
+    <Table border="1px">
+        <h1>Enfrentamientos</h1>
+        <h2>Serie A</h2>
+        <thead>
+        <th>Fecha</th>
+        <th>Estadio</th>
+        <th>Versus</th>
+        </thead>
+        <tr></tr>
+            <td>vie. 4º oct</td>
+            <td>Estadio Reina del Cisne</td>
+            <td>Libertad vs Cumbaya</td>
+        </tr>
+        <tr>
+            <td>sáb. 5º oct</td>
+            <td>Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+            <td>Mushuc Runa vs Ind. del Valle</td>
+        </tr>
+        <tr>
+            <td>sáb. 5º oct</td>
+            <td>Banco del Austro Alejandro Serrano Aguil</td>
+            <td>Dep. Cuenca vs Técnico U.</td>
+        </tr>
+        <tr>
+            <td>sáb. 5º oct</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>El Nacional vs Barcelona SC</td>
+        </tr>
+        <tr>
+            <td>dom. 6º oct</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>U. Católica vs IMB</td>
+        </tr>
+        <tr>
+            <td>dom. 6º oct</td>
+            <td>Rodrigo Paz Delgado</td>
+            <td>Liga vs Orense SC</td>
+        </tr>
+        <tr>
+            <td>dom. 6º oct</td>
+            <td>Estadio George Capwell Banco del Austro</td>
+            <td>CS Emelec vs SD Aucas</td>
+        </tr>
+        <tr>
+            <td>lun. 7º oct</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>CD Macará vs Delfín SC</td>
+        </tr>
+        <tr>
+            <td>vie. 18º oct</td>
+            <td>9 de mayo</td>
+            <td>Orense SC vs Libertad</td>
+        </tr>
+        <tr>
+            <td>sáb. 19º oct</td>
+            <td>Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+            <td>Mushuc Runa vs Dep. Cuenca</td>
+        </tr>
+        <tr>
+            <td>sáb. 19º oct</td>
+            <td>Estadio Banco Guayaquil</td>
+            <td>Ind. del Valle vs IMB</td>
+        </tr>
+        <tr>
+            <td>sáb. 19º oct</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>Técnico U. vs Liga</td>
+        </tr>
+        <tr>
+            <td>dom. 20º oct</td>
+            <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+            <td>SD Aucas vs CD Macará</td>
+        </tr>
+        <tr>
+            <td>dom. 20º oct</td>
+            <td>Estadio Jocay</td>
+            <td>Delfín SC vs El Nacional</td>
+        </tr>
+        <tr>
+            <td>dom. 20º oct</td>
+            <td>Estadio Banco Pichincha</td>
+            <td>Barcelona SC vs CS Emelec</td>
+        </tr>
+        <tr>
+            <td>lun. 21º oct</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>Cumbayá vs U. Católica</td>
+        </tr>
+        <tr>
+            <td>vie. 25º oct</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>sáb. 26º oct</td>
+            <td>Banco del Austro Alejandro Serrano Aguil</td>
+            <td>Dep. Cuenca vs Ind. del Valle</td>
+        </tr>
+        <tr>
+            <td>sáb. 26º oct</td>
+            <td>Estadio Reina del Cisne</td>
+            <td>Libertad vs SD Aucas</td>
+        </tr>
+        <tr>
+            <td>sáb. 26º oct</td>
+            <td>Rodrigo Paz Delgado</td>
+            <td>Liga vs Mushuc Runa</td>
+        </tr>
+        <tr>
+            <td>sáb. 26º oct</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>U. Católica vs CS Emelec</td>
+        </tr>
+        <tr>
+            <td>dom. 27º oct</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>CD Macará vs Cumbayá</td>
+        </tr>
+        <tr>
+            <td>dom. 27º oct</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>El Nacional vs Orense SC</td>
+        </tr>
+        <tr>
+            <td>dom. 27º oct</td>
+            <td>Estadio Banco Pichincha</td>
+            <td>Barcelona SC vs Delfín SC</td>
+        </tr>
+        <tr>
+            <td>lun. 28º oct</td>
+            <td>Estadio Olímpico de Ibarra</td>
+            <td>IMB vs Técnico U.</td>
+        </tr>
+        <tr>
+            <td>vie. 1º nov</td>
+            <td>9 de mayo</td>
+            <td>Orense SC vs Delfín SC</td>
+        </tr>
+        <tr>
+            <td>sáb. 2º nov</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>Cumbayá vs Dep. Cuenca</td>
+        </tr>
+        <tr>
+            <td>sáb. 2º nov</td>
+            <td>Estadio Reina del Cisne</td>
+            <td>Libertad vs IMB</td>
+        </tr>
+        <tr>
+            <td>sáb. 2º nov</td>
+            <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+            <td>SD Aucas vs Barcelona SC</td>
+        </tr>
+        <tr>
+            <td>dom. 3º nov</td>
+            <td>Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+            <td>Mushuc Runa vs Mushuc Runa</td>
+        </tr>
+        <tr>
+            <td>dom. 3º nov</td>
+            <td>Estadio Banco Guayaquil</td>
+            <td>Estadio Banco Guayaquil vs El Nacional</td>
+        </tr>
+        <tr>
+            <td>dom. 3º nov</td>
+            <td>Estadio George Capwell Banco del Austro</td>
+            <td>CS Emelec vs Liga</td>
+        </tr>
+        <tr>
+            <td>lun. 4º nov</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>Técnico U. vs U. Católica</td>
+        </tr>
+        <tr>
+            <td>vie. 8º nov</td>
+            <td>vie. 8º nov</td>
+            <td>Delfín SC vs Mushuc Runa</td>
+        </tr>
+        <tr>
+            <td>sáb. 9º nov</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>U. Católica vs U. Católica</td>
+        </tr>
+        <tr>
+            <td>sáb. 9º nov</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>CD Macará vs CS Emelec</td>
+        </tr>
+        <tr>
+            <td>sáb. 9º nov</td>
+            <td>Rodrigo Paz Delgado</td>
+            <td>Liga vs Ind. del Valle</td>
+        </tr>
+        <tr>
+            <td>dom. 10º nov</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>El Nacional vs Libertad</td>
+        </tr>
+        <tr>
+            <td>dom. 10º nov</td>
+            <td>9 de mayo</td>
+            <td>Orense SC vs Técnico U.</td>
+        </tr>
+        <tr>
+            <td>dom. 10º nov</td>
+            <td>Estadio Banco Pichincha</td>
+            <td>Barcelona SC vs Cumbayá</td>
+        </tr>
+        <tr>
+            <td>lun. 11º nov</td>
+            <td>Estadio Olímpico de Ibarra</td>
+            <td>IMB vs Dep. Cuenca</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Estadio George Capwell Banco del Austro</td>
+            <td>CS Emelec vs IMB</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>Cumbayá vs Orense SC</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Banco del Austro Alejandro Serrano Aguil</td>
+            <td>Dep. Cuenca vs Libertad</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Estadio Banco Guayaquil</td>
+            <td>Ind. del Valle vs CD Macará</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Cooperativa de Ahorro y Crédito Mushuc Runa</td>
+            <td>Mushuc Runa vs El Nacional</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Estadio Cooprogreso Gonzalo Pozo Ripalda</td>
+            <td>SD Aucas vs Delfín SC</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>Técnico U. vs Barcelona SC</td>
+        </tr>
+        <tr>
+            <td>sáb. 23º nov (TBC)</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>U. Católica vs Liga</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Estadio Banco Pichincha</td>
+            <td>Barcelona SC vs Mushuc Runa</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Estadio Universidad Indoamérica Bellavista</td>
+            <td>CD Macará vs U. Católica</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Estadio Jocay</td>
+            <td>Delfín SC vs Cumbayá</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Estadio Olímpico Atahualpa</td>
+            <td>El Nacional vs Técnico U.</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Estadio Olímpico de Ibarra</td>
+            <td>IMB vs SD Aucas</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Estadio Reina del Cisne</td>
+            <td>Libertad vs CS Emelec</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>Rodrigo Paz Delgado</td>
+            <td>Liga vs Dep. Cuenca</td>
+        </tr>
+        <tr>
+            <td>sáb. 30º nov (TBC)</td>
+            <td>9 de mayo</td>
+            <td>Orense SC vs Ind. del Valle</td>
+        </tr>
+    </Section>
+        <Section>
+            <Table border="1px">
+                <h1>Enfrentamientos</h1>
+                <h2>Serie B</h2>
+                <thead>
+                <th>Fecha</th>
+                <th>Estadio</th>
+                <th>Versus</th>
+                </thead>
+            <tr>
+                <td>dom. 13º oct</td>
+                <td>LPB</td>
+                <td>San Antonio vs Guayaquil City</td>
+            </tr>
+            <tr>
+                <td>dom. 29º sep</td>
+                <td>LPB</td>
+                <td>Cuniburo vs Guayaquil City</td>
+            </tr>
+            <tr>
+                <td>mar. 1º oct</td>
+                <td>LPB</td>
+                <td>Gualaceo vs Leones del N.</td>
+            </tr>
+            <tr>
+                <td>mié. 2º oct</td>
+                <td>LPB</td>
+                <td>San Antonio vs Chacaritas</td>
+            </tr>
+            <tr>
+                <td>jue. 3º oct</td>
+                <td>LPB</td>
+                <td>Guayaquil City vs Ind. Juniors</td>
+            </tr>
+            <tr>
+                <td>jue. 3º oct</td>
+                <td>LPB</td>
+                <td>Manta vs 9 de Octubre</td>
+            </tr>
+            <tr>
+                <td>vie. 4º oct</td>
+                <td>LPB</td>
+                <td>Vargas Torres vs Cuniburo </td>
+            </tr>
+            <tr>
+                <td>mié. 9º oct</td>
+                <td>LPB</td>
+                <td>Manta vs Gualaceo</td>
+            </tr>
+            <tr>
+                <td>vie. 11º oct</td>
+                <td>LPB</td>
+                <td>9 de Octubre vs San Antonio</td>
+            </tr>
+            <tr>
+                <td>vie. 11º oct</td>
+                <td>LPB</td>
+                <td>Chacaritas vs Guayaquil City</td>
+            </tr>
+            <tr>
+                <td>sáb. 12º oct</td>
+                <td>LPB</td>
+                <td>Ind. Juniors vs Vargas Torres</td>
+            </tr>
+            <tr>
+                <td>sáb. 12º oct</td>
+                <td>LPB</td>
+                <td>Leones del N. vs Cuniburo</td>
+            </tr>
+            <tr>
+                <td>mié. 16º oct</td>
+                <td>LPB</td>
+                <td>San Antonio vs Manta</td>
+            </tr>
+            <tr>
+                <td>mié. 16º oct</td>
+                <td>LPB</td>
+                <td>Gualaceo vs Ind. Juniors</td>
+            </tr>
+            <tr>
+                <td>jue. 17º oct</td>
+                <td>LPB</td>
+                <td>Guayaquil City vs Leones del N.</td>
+            </tr>
+            <tr>
+                <td>jue. 17º oct</td>
+                <td>LPB</td>
+                <td>Cuniburo vs 9 de Octubre</td>
+            </tr>
+            <tr>
+                <td>vie. 18º oct</td>
+                <td>LPB</td>
+                <td>Vargas Torres vs Chacaritas</td>
+            </tr>
+            <tr>
+                <td>mar. 22º oct (TBC)</td>
+                <td>LPB</td>
+                <td>9 de Octubre vs Guayaquil City</td>
+            </tr>
+            <tr>
+                <td>mar. 22º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Chacaritas vs Cuniburo</td>
+            </tr>
+            <tr>
+                <td>mar. 22º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Ind. Juniors vs Leones del N.</td>
+            </tr>
+    
+            <tr>
+                <td>mar. 22º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Manta vs Vargas Torres</td>
+            </tr>
+            
+            <tr>
+                <td>mar. 22º oct (TBC)</td>
+                <td>LPB</td>
+                <td>San Antonio vs Gualaceo</td>
+            </tr>
+            
+            <tr>
+                <td>mar. 29º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Cuniburo vs Ind. Juniors</td>
+            </tr>
+            
+            <tr>
+                <td>mar. 29º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Gualaceo vs 9 de Octubre</td>
+            </tr>
+            
+            <tr>
+                <td>mar. 29º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Guayaquil City vs Manta</td>
+            </tr>
+            
+            <tr>
+                <td>mar. 29º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Leones del N. vs Chacaritas</td>
+            </tr>
+            
+            <tr>
+                <td>mar. 29º oct (TBC)</td>
+                <td>LPB</td>
+                <td>Vargas Torres vs San Antonio</td>
+            </tr>
 </body>
-</html>
+</html> 
