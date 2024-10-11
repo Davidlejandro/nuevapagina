@@ -34,10 +34,14 @@ body {
     /*Le va a dar un margen desde el exterior hacia el interior del contenedor*/
     padding: 12px;
 }
+/*Le vamos a dar un diseño a nuestras tablas que tengan la clase tablas-clase*/
 .tablas-clase {
     color: red;
+    /*Tamaño del contenido*/
     font-size: 20px;
+    /*Color del fondo de la tabla*/
     background-color: white;
+    /*Margen desde el exterior al interior de la tabla*/
     padding: 10px;
 }
 /*Estilos a los links*/
